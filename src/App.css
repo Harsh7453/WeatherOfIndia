@@ -1,0 +1,89 @@
+* {
+  background-image: url(https://wallpapers.com/images/hd/perfect-weather-with-gradient-sky-ym0nn79vhoqg34v3.jpg);
+
+}
+
+.App {
+  opacity: 1;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  /* Light gray background */
+  background-image: url('weather.jpeg');
+
+}
+
+div {
+
+  margin: auto;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  /* Light border color */
+  width: 250px;
+  max-width: 100%;
+  transition: border-color 0.3s ease;
+  /* Smooth border color transition */
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  /* Blue border color on focus */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  /* Blue button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.weather-info {
+  border: 1px solid pink;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-details {
+  margin-top: 10px;
+  border: 1px solid white;
+  color: white;
+  /* Dark text color */
+}
+
+div h1 {
+
+  color: whitesmoke;
+  background-color: white;
+}
